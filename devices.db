@@ -1,9 +1,9 @@
-sw01.bel.net arista 7040-CS BEL
-rtr01.dub.net cisco nexus3k DUB
-rtr02.dub.net cisco nexus3k DUB
-pe1.blp.net nokia 7750-SR BLP
-pe1.srl.net nokia 7750-SR SRL
-agg1.wxd.blp-srl.net nokia 7450-ESS WXD
-agg1.wtd.blp-srl.net nokia 7450-ESS WTD
-core1.prp.net juniper QFX10000 PRP
-rancid.dub.net HP G380-v10 DUB
+sw01.bel.net arista 7040-CS BEL arista
+rtr01.dub.net cisco nexus3k DUB nxos
+rtr02.dub.net cisco nexus3k DUB nxos
+pe1.blp.net nokia 7750-SR BLP alcatel
+pe1.srl.net nokia 7750-SR SRL alcatel
+agg1.wxd.blp-srl.net nokia 7450-ESS WXD alcatel
+agg1.wtd.blp-srl.net nokia 7450-ESS WTD alcatel
+core1.prp.net juniper QFX10000 PRP juniper
+rancid.dub.net HP G380-v10 DUB linux
