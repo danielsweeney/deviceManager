@@ -3,8 +3,6 @@ import argparse
 from prettytable import PrettyTable
 
 class Device:
-        def __init__(self):
-                count = 1
         def writeDB(self, hostname, vendor, model, location):
                 with open('devices.db', 'a') as db:
                         db.write(hostname + " " + vendor + " " + model + " " + location + "\n")
